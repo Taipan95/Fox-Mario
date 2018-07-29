@@ -1,0 +1,4203 @@
+fileFormatVersion: 2
+guid: 507e0358d1c10a742b021086192d2e60
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ch_assassin002_0_old - Copy - Copy_0
+    21300002: ch_assassin002_0_old - Copy - Copy_1
+    21300004: ch_assassin002_0_old - Copy - Copy_2
+    21300006: ch_assassin002_0_old - Copy - Copy_3
+    21300008: ch_assassin002_0_old - Copy - Copy_4
+    21300010: ch_assassin002_0_old - Copy - Copy_5
+    21300012: ch_assassin002_0_old - Copy - Copy_6
+    21300014: ch_assassin002_0_old - Copy - Copy_7
+    21300016: ch_assassin002_0_old - Copy - Copy_8
+    21300018: ch_assassin002_0_old - Copy - Copy_9
+    21300020: ch_assassin002_0_old - Copy - Copy_10
+    21300022: ch_assassin002_0_old - Copy - Copy_11
+    21300024: ch_assassin002_0_old - Copy - Copy_12
+    21300026: ch_assassin002_0_old - Copy - Copy_13
+    21300028: ch_assassin002_0_old - Copy - Copy_14
+    21300030: ch_assassin002_0_old - Copy - Copy_15
+    21300032: ch_assassin002_0_old - Copy - Copy_16
+    21300034: ch_assassin002_0_old - Copy - Copy_17
+    21300036: ch_assassin002_0_old - Copy - Copy_18
+    21300038: ch_assassin002_0_old - Copy - Copy_19
+    21300040: ch_assassin002_0_old - Copy - Copy_20
+    21300042: ch_assassin002_0_old - Copy - Copy_21
+    21300044: ch_assassin002_0_old - Copy - Copy_22
+    21300046: ch_assassin002_0_old - Copy - Copy_23
+    21300048: ch_assassin002_0_old - Copy - Copy_24
+    21300050: ch_assassin002_0_old - Copy - Copy_25
+    21300052: ch_assassin002_0_old - Copy - Copy_26
+    21300054: ch_assassin002_0_old - Copy - Copy_27
+    21300056: ch_assassin002_0_old - Copy - Copy_28
+    21300058: ch_assassin002_0_old - Copy - Copy_29
+    21300060: ch_assassin002_0_old - Copy - Copy_30
+    21300062: ch_assassin002_0_old - Copy - Copy_31
+    21300064: ch_assassin002_0_old - Copy - Copy_32
+    21300066: ch_assassin002_0_old - Copy - Copy_33
+    21300068: ch_assassin002_0_old - Copy - Copy_34
+    21300070: ch_assassin002_0_old - Copy - Copy_35
+    21300072: ch_assassin002_0_old - Copy - Copy_36
+    21300074: ch_assassin002_0_old - Copy - Copy_37
+    21300076: ch_assassin002_0_old - Copy - Copy_38
+    21300078: ch_assassin002_0_old - Copy - Copy_39
+    21300080: ch_assassin002_0_old - Copy - Copy_40
+    21300082: ch_assassin002_0_old - Copy - Copy_41
+    21300084: ch_assassin002_0_old - Copy - Copy_42
+    21300086: ch_assassin002_0_old - Copy - Copy_43
+    21300088: ch_assassin002_0_old - Copy - Copy_44
+    21300090: ch_assassin002_0_old - Copy - Copy_45
+    21300092: ch_assassin002_0_old - Copy - Copy_46
+    21300094: ch_assassin002_0_old - Copy - Copy_47
+    21300096: ch_assassin002_0_old - Copy - Copy_48
+    21300098: ch_assassin002_0_old - Copy - Copy_49
+    21300100: ch_assassin002_0_old - Copy - Copy_50
+    21300102: ch_assassin002_0_old - Copy - Copy_51
+    21300104: ch_assassin002_0_old - Copy - Copy_52
+    21300106: ch_assassin002_0_old - Copy - Copy_53
+    21300108: ch_assassin002_0_old - Copy - Copy_54
+    21300110: ch_assassin002_0_old - Copy - Copy_55
+    21300112: ch_assassin002_0_old - Copy - Copy_56
+    21300114: ch_assassin002_0_old - Copy - Copy_57
+    21300116: ch_assassin002_0_old - Copy - Copy_58
+    21300118: ch_assassin002_0_old - Copy - Copy_59
+    21300120: ch_assassin002_0_old - Copy - Copy_60
+    21300122: ch_assassin002_0_old - Copy - Copy_61
+    21300124: ch_assassin002_0_old - Copy - Copy_62
+    21300126: ch_assassin002_0_old - Copy - Copy_63
+    21300128: ch_assassin002_0_old - Copy - Copy_64
+    21300130: ch_assassin002_0_old - Copy - Copy_65
+    21300132: ch_assassin002_0_old - Copy - Copy_66
+    21300134: ch_assassin002_0_old - Copy - Copy_67
+    21300136: ch_assassin002_0_old - Copy - Copy_68
+    21300138: ch_assassin002_0_old - Copy - Copy_69
+    21300140: ch_assassin002_0_old - Copy - Copy_70
+    21300142: ch_assassin002_0_old - Copy - Copy_71
+    21300144: ch_assassin002_0_old - Copy - Copy_72
+    21300146: ch_assassin002_0_old - Copy - Copy_73
+    21300148: ch_assassin002_0_old - Copy - Copy_74
+    21300150: ch_assassin002_0_old - Copy - Copy_75
+    21300152: ch_assassin002_0_old - Copy - Copy_76
+    21300154: ch_assassin002_0_old - Copy - Copy_77
+    21300156: ch_assassin002_0_old - Copy - Copy_78
+    21300158: ch_assassin002_0_old - Copy - Copy_79
+    21300160: ch_assassin002_0_old - Copy - Copy_80
+    21300162: ch_assassin002_0_old - Copy - Copy_81
+    21300164: ch_assassin002_0_old - Copy - Copy_82
+    21300166: ch_assassin002_0_old - Copy - Copy_83
+    21300168: ch_assassin002_0_old - Copy - Copy_84
+    21300170: ch_assassin002_0_old - Copy - Copy_85
+    21300172: ch_assassin002_0_old - Copy - Copy_86
+    21300174: ch_assassin002_0_old - Copy - Copy_87
+    21300176: ch_assassin002_0_old - Copy - Copy_88
+    21300178: ch_assassin002_0_old - Copy - Copy_89
+    21300180: ch_assassin002_0_old - Copy - Copy_90
+    21300182: ch_assassin002_0_old - Copy - Copy_91
+    21300184: ch_assassin002_0_old - Copy - Copy_92
+    21300186: ch_assassin002_0_old - Copy - Copy_93
+    21300188: ch_assassin002_0_old - Copy - Copy_94
+    21300190: ch_assassin002_0_old - Copy - Copy_95
+    21300192: ch_assassin002_0_old - Copy - Copy_96
+    21300194: ch_assassin002_0_old - Copy - Copy_97
+    21300196: ch_assassin002_0_old - Copy - Copy_98
+    21300198: ch_assassin002_0_old - Copy - Copy_99
+    21300200: ch_assassin002_0_old - Copy - Copy_100
+    21300202: ch_assassin002_0_old - Copy - Copy_101
+    21300204: ch_assassin002_0_old - Copy - Copy_102
+    21300206: ch_assassin002_0_old - Copy - Copy_103
+    21300208: ch_assassin002_0_old - Copy - Copy_104
+    21300210: ch_assassin002_0_old - Copy - Copy_105
+    21300212: ch_assassin002_0_old - Copy - Copy_106
+    21300214: ch_assassin002_0_old - Copy - Copy_107
+    21300216: ch_assassin002_0_old - Copy - Copy_108
+    21300218: ch_assassin002_0_old - Copy - Copy_109
+    21300220: ch_assassin002_0_old - Copy - Copy_110
+    21300222: ch_assassin002_0_old - Copy - Copy_111
+    21300224: ch_assassin002_0_old - Copy - Copy_112
+    21300226: ch_assassin002_0_old - Copy - Copy_113
+    21300228: ch_assassin002_0_old - Copy - Copy_114
+    21300230: ch_assassin002_0_old - Copy - Copy_115
+    21300232: ch_assassin002_0_old - Copy - Copy_116
+    21300234: ch_assassin002_0_old - Copy - Copy_117
+    21300236: ch_assassin002_0_old - Copy - Copy_118
+    21300238: ch_assassin002_0_old - Copy - Copy_119
+    21300240: ch_assassin002_0_old - Copy - Copy_120
+    21300242: ch_assassin002_0_old - Copy - Copy_121
+    21300244: ch_assassin002_0_old - Copy - Copy_122
+    21300246: ch_assassin002_0_old - Copy - Copy_123
+    21300248: ch_assassin002_0_old - Copy - Copy_124
+    21300250: ch_assassin002_0_old - Copy - Copy_125
+    21300252: ch_assassin002_0_old - Copy - Copy_126
+    21300254: ch_assassin002_0_old - Copy - Copy_127
+    21300256: ch_assassin002_0_old - Copy - Copy_128
+    21300258: ch_assassin002_0_old - Copy - Copy_129
+    21300260: ch_assassin002_0_old - Copy - Copy_130
+    21300262: ch_assassin002_0_old - Copy - Copy_131
+    21300264: ch_assassin002_0_old - Copy - Copy_132
+    21300266: ch_assassin002_0_old - Copy - Copy_133
+    21300268: ch_assassin002_0_old - Copy - Copy_134
+    21300270: ch_assassin002_0_old - Copy - Copy_135
+    21300272: ch_assassin002_0_old - Copy - Copy_136
+    21300274: ch_assassin002_0_old - Copy - Copy_137
+    21300276: ch_assassin002_0_old - Copy - Copy_138
+    21300278: ch_assassin002_0_old - Copy - Copy_139
+    21300280: ch_assassin002_0_old - Copy - Copy_140
+    21300282: ch_assassin002_0_old - Copy - Copy_141
+    21300284: ch_assassin002_0_old - Copy - Copy_142
+    21300286: ch_assassin002_0_old - Copy - Copy_143
+    21300288: ch_assassin002_0_old - Copy - Copy_144
+    21300290: ch_assassin002_0_old - Copy - Copy_145
+    21300292: ch_assassin002_0_old - Copy - Copy_146
+    21300294: ch_assassin002_0_old - Copy - Copy_147
+    21300296: ch_assassin002_0_old - Copy - Copy_148
+    21300298: ch_assassin002_0_old - Copy - Copy_149
+    21300300: ch_assassin002_0_old - Copy - Copy_150
+    21300302: ch_assassin002_0_old - Copy - Copy_151
+    21300304: ch_assassin002_0_old - Copy - Copy_152
+    21300306: ch_assassin002_0_old - Copy - Copy_153
+    21300308: ch_assassin002_0_old - Copy - Copy_154
+    21300310: ch_assassin002_0_old - Copy - Copy_155
+    21300312: ch_assassin002_0_old - Copy - Copy_156
+    21300314: ch_assassin002_0_old - Copy - Copy_157
+    21300316: ch_assassin002_0_old - Copy - Copy_158
+    21300318: ch_assassin002_0_old - Copy - Copy_159
+    21300320: ch_assassin002_0_old - Copy - Copy_160
+    21300322: ch_assassin002_0_old - Copy - Copy_161
+    21300324: ch_assassin002_0_old - Copy - Copy_162
+    21300326: ch_assassin002_0_old - Copy - Copy_163
+    21300328: ch_assassin002_0_old - Copy - Copy_164
+    21300330: ch_assassin002_0_old - Copy - Copy_165
+    21300332: ch_assassin002_0_old - Copy - Copy_166
+    21300334: ch_assassin002_0_old - Copy - Copy_167
+    21300336: ch_assassin002_0_old - Copy - Copy_168
+    21300338: ch_assassin002_0_old - Copy - Copy_169
+    21300340: ch_assassin002_0_old - Copy - Copy_170
+    21300342: ch_assassin002_0_old - Copy - Copy_171
+    21300344: ch_assassin002_0_old - Copy - Copy_172
+    21300346: ch_assassin002_0_old - Copy - Copy_173
+    21300348: ch_assassin002_0_old - Copy - Copy_174
+    21300350: ch_assassin002_0_old - Copy - Copy_175
+    21300352: ch_assassin002_0_old - Copy - Copy_176
+    21300354: ch_assassin002_0_old - Copy - Copy_177
+    21300356: ch_assassin002_0_old - Copy - Copy_178
+    21300358: ch_assassin002_0_old - Copy - Copy_179
+    21300360: ch_assassin002_0_old - Copy - Copy_180
+    21300362: ch_assassin002_0_old - Copy - Copy_181
+    21300364: ch_assassin002_0_old - Copy - Copy_182
+    21300366: ch_assassin002_0_old - Copy - Copy_183
+    21300368: ch_assassin002_0_old - Copy - Copy_184
+    21300370: ch_assassin002_0_old - Copy - Copy_185
+    21300372: ch_assassin002_0_old - Copy - Copy_186
+    21300374: ch_assassin002_0_old - Copy - Copy_187
+    21300376: ch_assassin002_0_old - Copy - Copy_188
+    21300378: ch_assassin002_0_old - Copy - Copy_189
+    21300380: ch_assassin002_0_old - Copy - Copy_190
+    21300382: ch_assassin002_0_old - Copy - Copy_191
+    21300384: ch_assassin002_0_old - Copy - Copy_192
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2535
+        width: 202
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022bfa42fe8fbca4d958ab8955d470b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2526
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b251192e043f84ea985dd6227cd8ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2512
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ace585e7ae180478ddbbd5def1f8a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2504
+        width: 139
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e428a40a24fa2554c86e8260cb2bbbf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2442
+        width: 447
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b5ca7b95dbb446909c60964b9b503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2439
+        width: 326
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d86ee4873998459f16efb91ba3585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2435
+        width: 464
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabebcb979767244eaf2f94c8cb5789e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2435
+        width: 230
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd42898265e271d43857dedaf765d073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 2435
+        width: 237
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec5fac38d55b124a86b0bea80d3bb2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 2433
+        width: 229
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63267fe2905bc274386fb586cfc8dd9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2431
+        width: 238
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a0288ef1bd1ab49a4082ade4202f54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 2429
+        width: 230
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c253085b181c9b4982a6a6623dffedf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 2429
+        width: 229
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5550200c621643c40a413229d3f70a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 2428
+        width: 237
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fa5d99bc89e1b44b411171fc9d627b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 2428
+        width: 224
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b255f48c3e81d5c488c583a640726766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2280
+        width: 222
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4f09ca9d897a745bae031806e7c6a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2279
+        width: 248
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94545d00f0f30de4ca16021c93396aab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2278
+        width: 235
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf19ba26ccdd36145aa03fe18dfef2bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2278
+        width: 236
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cc9d00f6150a640ba70baf243e9533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2278
+        width: 239
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27692e354c776dc439b0addf66d13090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 2277
+        width: 473
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f669e6a9a0d34691e8860bf4429b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 2277
+        width: 236
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317be7be23dd6bf419fbcd7f229ea7df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2275
+        width: 232
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b56d93b8168e24ea38e69bb44d1f92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 2275
+        width: 475
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8464b453e2f2349987ae606a425398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 2273
+        width: 198
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920d747e4ecd5c3459e876587414fac7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 2271
+        width: 222
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09989faefe615949b705886d0553bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 2271
+        width: 224
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50772e49af19374dbd63f9376d1efa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 2271
+        width: 235
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e334bdf20330b914a9fa09519f380fb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2271
+        width: 235
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ceb8f2ee085c543acb80ba8af63059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2113
+        width: 227
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761149f204fe91f459a0b2e2f3af82ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2113
+        width: 218
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870da01b8c27f046a4e5771ac67f35b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2113
+        width: 217
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75df8b38d01c5c4b87710a3057e3ff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2109
+        width: 238
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc463591cddadda4196ad06b2e5fd60c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2109
+        width: 234
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751feb31301cbd94d92552eb4773798a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2108
+        width: 384
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aa92d3b098c8045b192dc74046125b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2108
+        width: 215
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1440e0e4775cb49bbff13842feef66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2104
+        width: 182
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451b556e0d7362d43a72fa286148eb47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 2102
+        width: 231
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d36586d7769a4459d81d2e8cb3c060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2102
+        width: 229
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ee9aa99278c00478728108115cf8a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2102
+        width: 193
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514c89ff71a105c48b82e9a975b1f874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 2100
+        width: 219
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe0903387624774a9e504cc142a4d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 2100
+        width: 218
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aff6d091b71e9243abcac56e0bee75a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 2098
+        width: 151
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5a76545ea6075448e0b4b910c9af67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1915
+        width: 247
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8228af3bdf6495a44ab6bfbf0c88cebf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 2096
+        width: 386
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f4e834911df448b33a653338d50d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1922
+        width: 231
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcd95a037734bc4a818915a7ba3ade3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1922
+        width: 229
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995760914ff4a674381bab98ee17713a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1920
+        width: 203
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4180f1108345a34baafc4e8d4bf920b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1918
+        width: 201
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb3d69e74591c546956407951efedc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1920
+        width: 200
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d99d6783b0d72b45b12bb6e0c88766b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1918
+        width: 218
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424c144efbfb2d24dbbc8c75ffa22001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1918
+        width: 218
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a9103d42ecf884087131df247777c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1918
+        width: 216
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487f468fb0d094c4aac08996c0610284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1916
+        width: 200
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f684172b05dbf468b810d666c085ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1916
+        width: 379
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9899463fe0be3d148b1a4e5386daab4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 1914
+        width: 586
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9679e2ebbaf51b14b9bb64deba3675b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_56
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 1915
+        width: 224
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc5f800fae257447a194680a74c1f4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 1914
+        width: 210
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a113a9975d6b408fca6224bc94254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 1914
+        width: 195
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c018610cdbd8455438b7d4209e44e9b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1732
+        width: 194
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bfa13d551162c47811cd033ad725f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_60
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1732
+        width: 224
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f89a397d949d74c9e708da05792b1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_61
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1732
+        width: 216
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e6bd6f0b180d64a95e0d0f3c3a270c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1732
+        width: 222
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed64e144b81b56f45bead57994f28dad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1730
+        width: 357
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4042433401415564292524e86f58a7a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1731
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4afb0e9972c06349b70ca8b6590b53f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_65
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1730
+        width: 224
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574eb28818c81c14193b892d0ca5b563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_66
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1730
+        width: 224
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac9abf8f7af1de48b58a7563bfa84ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1729
+        width: 169
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7df8a77fd2ffd47bd58c016793292f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_68
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1729
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1214c6e3aa781404bbe27986cc2cadac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_69
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 1729
+        width: 209
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f82e49f6e2eb794a93a5a95618e115e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_70
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1729
+        width: 553
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbd3c2cf071eeb499732786b1987e1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_71
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 1729
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6ff451728be124585c25256d3f6e9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_72
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 1727
+        width: 584
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0ed431aa0e2764db77d6d37b7bd24f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1541
+        width: 219
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e654809e2c1eae54a80cd52f137f21f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_74
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1541
+        width: 217
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa89ef6570fb2c349aff8f6a85ed1849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_75
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1539
+        width: 193
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f1df739add194b9d0192c96449885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_76
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1539
+        width: 193
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca34df9ba8987346850aed51db46c92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_77
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1539
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e07d50ffe3f2740b9f97d92e4d963f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_78
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1538
+        width: 187
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447303d92100de147adb8cef543cd7c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_79
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1539
+        width: 193
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6678c1d5cb09d64fa2a95f0403daf35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_80
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1539
+        width: 193
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd27173607e6914f8ae57bd24948f0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_81
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1537
+        width: 203
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5bfa9654dee6c45b3d3ec4e234efb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_82
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1537
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1d270aeae7139448e2ca1bb6c15117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_83
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1150
+        width: 201
+        height: 579
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5cdd465a39a1846850251b633d0954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_84
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1537
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e334539a7500e3d43813f2eae1d07355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_85
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1537
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b2873aaef29414d8c76cf8e4ef58cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_86
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1537
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170da078eed498f49a81b2276ede8be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_87
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 948
+        width: 535
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c74891c6f467b24587cc6ee9af80a68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_88
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 1536
+        width: 147
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3df813b709dce94c92c1a294d672a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_89
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 1536
+        width: 192
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b909efbf0038101478e9c925abc13f41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_90
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1152
+        width: 197
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6112f4a6307ac3c4eaec7e44c33cff50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_91
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1344
+        width: 383
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befa8e3bb92ecd44dad92e561ae17a41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_92
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1152
+        width: 198
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182d63eee430fb141951e8bd520fec4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_93
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1344
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6437ad7e833f8604ab7647ee99e2200c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_94
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1151
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9cf4cab6f130e4dab5aa063e4fb9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_95
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1345
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce11067a4547d50489bfd0e949f18c5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_96
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1152
+        width: 129
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85af94c0467676f48bf28be20923515f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1151
+        width: 312
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fda13a38d1ae847a3d6a1cbe2188d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_98
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1345
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f391d458881a345ac0b1b7c85e9a75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_99
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1345
+        width: 194
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc434bbde2fdd04785ea055adba0777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_100
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1151
+        width: 202
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229aebd2e753bc548a44007329be078d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_101
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1345
+        width: 194
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d640d23b5d2c676418905f367ab2f2b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_102
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1151
+        width: 202
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de07e34116d434cb5b6dbac6e8641a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_103
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1344
+        width: 199
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5275f09d007ec2741b5fcdfa9a2c3fd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_104
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1151
+        width: 201
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2d0e20f1448fd47b5331acd5222393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_105
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1345
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0a46544dc94124d8054397236ef2f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_106
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1150
+        width: 164
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1bc36f89687aa41ac43a29938f0717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_107
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1345
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ea101efdf31a4d85bb2de67340795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_108
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1150
+        width: 173
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9ab5a8be294db48ac37d65304ce649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_109
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1345
+        width: 195
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1303e5a665aa8674196847a43b408e6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_110
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1150
+        width: 173
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79bf4105a20dac47ad083668f5811da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_111
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 1150
+        width: 374
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de86c115796736c4ca5df0dbc85488d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_112
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 1344
+        width: 201
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ac247e0c3cd764ea818cf5fd645dde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_113
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1344
+        width: 344
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3f01ef40351b4c85bf218dd015732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_114
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 1150
+        width: 205
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee729cc8878bbad4d829616669abc92d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_115
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1149
+        width: 198
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e84e2abd483cd3469d7478f9a71697a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_116
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 1344
+        width: 195
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec123970596349f468e5f7190bbaef46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_117
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 1148
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221fedb2265846943a83f41a1a787720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_118
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 1344
+        width: 183
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397669b42536184aa0365c1ad649dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_119
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 951
+        width: 202
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d872129a5e3a438b1c8dd753d8c78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_120
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 951
+        width: 202
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704aac72ab6572449b6c2a3dbf7cf04e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_121
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 951
+        width: 158
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68acf840a6bd2404380295ba6839256a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_122
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 949
+        width: 213
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378e0665462b77a4f9762e5ef88eb327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_123
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 949
+        width: 211
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd2685ddad89143836eed01db7103b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_124
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 950
+        width: 172
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888e1c688919d574d98041cf842a9561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_125
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 950
+        width: 172
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a75ffa9a7655c4fa11bac6d8e1d82f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_126
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 950
+        width: 154
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018c69bb95feef4896fba0502c550a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_127
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 950
+        width: 154
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5691d71bb24082743b43fa83e0e02057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_128
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 949
+        width: 206
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b536e711d9e714999ab9201adedf09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_129
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 950
+        width: 206
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f5a866b7a993d408888ff0456caeb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_130
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 949
+        width: 333
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b9c03cede12b4d96f808280d819be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_131
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 949
+        width: 204
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59da0e2f04383f148aae158ce584d10d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_132
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 949
+        width: 160
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a9d3e62085e7e42a29da94ddc73532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_133
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 949
+        width: 159
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d00d8a209a4b4aafd0f6cdca2a82f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_134
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 949
+        width: 204
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e216cb5b558e17478608db3fe3ee6ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_135
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 948
+        width: 182
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc80107b853b2ed4f8a8b449b425483e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_136
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 748
+        width: 184
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd809a451e5ab9b4ebec3c072c1e8c09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_137
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 746
+        width: 174
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86fa6303abbd994395eac0deb180d68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_138
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 746
+        width: 173
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941dc4994e9ec48428eaa8f15eb816ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_139
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 746
+        width: 164
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338c098134017f0408e0ebf84a8716cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_140
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 746
+        width: 189
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde7bb2c7fc13214f8fead5f123af581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_141
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 744
+        width: 313
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e83f49eea9e0143bedd79d168147ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_142
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 743
+        width: 176
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c210c6c84702648860b8eb2b663bbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_143
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 743
+        width: 176
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b29037be2258d84e8d614d63fe2a98b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_144
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 742
+        width: 175
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921a3f19392bddc46b7f52ada921619d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_145
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 742
+        width: 176
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6472b76a9d9803a4191a64b5445bc026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_146
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 742
+        width: 158
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eb5ce2d4cb6b04e8e4ef0f9eca3aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_147
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 740
+        width: 290
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1883c7edaab504c80e7158c7872a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_148
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 740
+        width: 160
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be89d5da0eea1746b81ce822d949bf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_149
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 738
+        width: 155
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b49291297e618942bc1f8a39af9d59f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_150
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 736
+        width: 325
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b896da3a725a74b8dd9eda0c773d9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_151
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 736
+        width: 173
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0532930d78aede04cbb9e72673e5a336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_152
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 735
+        width: 162
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa043be1f89b4544a081b3d1cb831c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_153
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 735
+        width: 154
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eb3bcb15f847d4b84dd0c5146e8530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_154
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 735
+        width: 157
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12694fdddaf8d842867bc79d642733d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_155
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 520
+        width: 361
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873910227e3f4c84f92fbea62846c4a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_156
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 518
+        width: 230
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13128eb84502f634da4d06d7fecf2bea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_157
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 518
+        width: 412
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac359de6cedec4184c8927e28db9fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_158
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 516
+        width: 121
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc8c047a6b3a640911cf33fd53b483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_159
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 516
+        width: 167
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558337bf3b40f9842af7f13163e46521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_160
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 516
+        width: 129
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284233663677fcd4e8ed3ca33dc3cb2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_161
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 516
+        width: 131
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e37fe7328caa2049b887d8e2fae9ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_162
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 514
+        width: 169
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443ac95680caaa409c4f43681466a8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_163
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 512
+        width: 168
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0529d239801ec47ace4c750fe2fb2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_164
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 513
+        width: 511
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8499ac237102a4ea8ec5c86c9988a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_165
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 512
+        width: 169
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef170740240a314ca44e7adfb932e86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_166
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 511
+        width: 151
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f5a168b64b35b4987951a0e67bb2ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_167
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 509
+        width: 277
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463424195ef5c7c4fbf8973cd4b7de40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_168
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 507
+        width: 155
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebe926602562994ab091309590eb1e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_169
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 507
+        width: 570
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d05e91d4339e964fa0f8918e05b43ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_170
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 279
+        width: 569
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b381b47c07b8439e4baa2c08e5c06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_171
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 279
+        width: 1141
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e82a8c09126b54e977181d4dd43e93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_172
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 278
+        width: 153
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820a3b301f6d7534bb2f420311de8580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_173
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 276
+        width: 133
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17175346b4105cb4dbf0e57ff0a981a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_174
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 270
+        width: 244
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7d471ccd031c4aa19cd31ef172113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_175
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 270
+        width: 113
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3328b592de82d124dbeec6224468fbe8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_176
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 270
+        width: 113
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5201050a4b1e7494b9e96524c5b198d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_177
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 270
+        width: 113
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6793cb2c6a714a4a8e60d54f39b54f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_178
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 270
+        width: 113
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd457cb2ea074d41bc7ad350be74d4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_179
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 12
+        width: 1141
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a8dba40e132e469466615c25b7c39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_180
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 34
+        width: 149
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764b44929b5e1a0458c2b68bf106509b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_181
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 34
+        width: 118
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb0d285ebefd744299136fff30599b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_182
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 30
+        width: 661
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03086df1ff7d4ab4d988a680a249acba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_183
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 28
+        width: 131
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ace597dc2b234aa86072c6e6b83ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_184
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 28
+        width: 109
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf64e8699df13f45927ed4985085d38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_185
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 28
+        width: 110
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa8737654b4ce04ba2bb13ccdf37660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_186
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 26
+        width: 145
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a435ee9638bc5e249aa415131a63da5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_187
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 25
+        width: 130
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa17982af1d0504ea9f8919d903dd1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_188
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 25
+        width: 133
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e706d9dfe67c4782766a0d7e144a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_189
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 23
+        width: 131
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42fdf6a9e4973b44a158e41e92b75a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_190
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 19
+        width: 110
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc099b56127a8b948b62a38b0cbde165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_191
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 19
+        width: 109
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d3337b3af86b843abafa31383888c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ch_assassin002_0_old - Copy - Copy_192
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 20
+        width: 570
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5cc3a81b88e374fb6ddd05c50f29c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4f73690c33e9a524a980964a28730da9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
