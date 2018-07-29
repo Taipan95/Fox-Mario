@@ -17,10 +17,23 @@ public class PlayerControl : MonoBehaviour {
     public bool isGrounded; //checks if player is in touch with the ground
 
     private Rigidbody2D rb;
-
+    private Animator animator;
+    private static PlayerControl instance;
+    public static PlayerControl Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = GameObject.FindObjectOfType<PlayerControl>();
+            }
+            return instance;
+        }
+    }
 
     void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         moveX = Input.GetAxis("Horizontal");
         isGrounded = true;
     }
@@ -30,10 +43,26 @@ public class PlayerControl : MonoBehaviour {
         PlayerMove();
 	}
 
+    void FixedUpdate()
+    {
+        HandleLayers();
+        if (rb.velocity.y < 0)
+        {
+            animator.SetBool("Land", true);
+        }  
+    }
 
-    
     void PlayerMove()
     {
+        //Basically what triggers the animation for running
+        if (isGrounded && rb.velocity.x!=0)
+        {
+            animator.SetFloat("Speed", 1);
+        }
+        else if (rb.velocity.x == 0)
+        {
+            animator.SetFloat("Speed", 0);
+        }   
         //MOVEMENT
         moveX = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveX * playerSpeed, rb.velocity.y);
@@ -44,6 +73,8 @@ public class PlayerControl : MonoBehaviour {
             isGrounded = false;
             if (extraJumpPower > 0)
             {
+                //Triggers the jumping animation
+                animator.SetTrigger("Jump");
                 rb.AddForce(Vector2.up * jumpingPower * Time.deltaTime, ForceMode2D.Impulse);
                 extraJumpPower -= 10;
             }
@@ -60,7 +91,18 @@ public class PlayerControl : MonoBehaviour {
         }
 
     }
-
+    //Switching between animation layers when player is on ground or not.
+    void HandleLayers()
+    {
+        if (isGrounded)
+        {
+            animator.SetLayerWeight(1, 0);
+        }
+        else
+        {
+            animator.SetLayerWeight(1, 1);
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
