@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public GameObject player,cameraObject,gameObjecty;
+    public GameObject player,cameraObject;
     //cameraSetting einai metabliti poy theti thn kamera sto simio to opoio theloyme na dinete h oratotita ston pexti
     //cameraSettingY dinoyme thn diafora ths apostasis poy eixe eksarxis o pextis me thn kamera etsi oste an pesi o pextis na eksisoropistoi pali i apostasi ths cameras apo ayton
     public float CameraSetting, CameraSettingY;
@@ -28,7 +28,7 @@ void Start()
 
         }
         //opos kai apo epanno an kseperasti mia timh dosmenh apostaseis pexti me kameras energopiite o kombos
-        if (Mathf.Abs(gameObjecty.transform.position.y - player.transform.position.y) >= 10)
+        if (Mathf.Abs(gameObject.transform.position.y+7 - player.transform.position.y) >= 10)
         {  //an h thesi tou y toy pexti einai megaliteri apo ayth ths kameras tote dn metakinite
             if (player.transform.position.y > gameObject.transform.position.y)
             {   
