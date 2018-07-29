@@ -15,7 +15,6 @@ public class PlayerControl : MonoBehaviour {
     private float moveX; //controls the player on the x-axis
 
     public bool isGrounded; //checks if player is in touch with the ground
-    private bool startJumpTimer = false; 
 
     private Rigidbody2D rb;
 
