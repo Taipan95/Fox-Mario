@@ -17,10 +17,10 @@ public class CameraObjectCollider : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D Otherobject)
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        if (Otherobject.name.ToLower().Contains("camerawall"))
+        if (Otherobject.name.ToLower().Contains("player"))
         {
             Debug.Log("-100, 0");
-            rb.velocity = new Vector2(1000, 0);
+            rb.velocity = new Vector2(-rb.velocity.x, 0);
             
         }
     }
