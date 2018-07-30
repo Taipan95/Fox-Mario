@@ -279,6 +279,52 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8930101, y: 11.484048}
   m_EdgeRadius: 0
+--- !u!1001 &264869161
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 36.264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.748
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778557389029960, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.235279
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2a73e258c81dd354199e05d9b5d9d9d3, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &444871339
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +392,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &444871342
 SpriteRenderer:
   m_ObjectHideFlags: 0
