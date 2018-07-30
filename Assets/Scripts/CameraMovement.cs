@@ -22,7 +22,7 @@ void Start()
     {
 
         //kanei elenxo metaksi apostasis tou object ths cameras kai toy x toy pextei kai an kseperastei tote metabalete o x aksonas
-        if (Mathf.Abs(cameraObject.transform.position.x - player.transform.position.x) >= 9)
+        if (Mathf.Abs(cameraObject.transform.position.x - player.transform.position.x) >= 14)
         {   //kanei metafora ton x aksona ths kameras ton proxoraei dld dn to thlemetaferei 
             gameObject.transform.Translate((player.transform.position.x - CameraSetting) * Time.deltaTime, 0.0f, -2);
 
