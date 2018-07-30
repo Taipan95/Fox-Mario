@@ -16,12 +16,12 @@ public class TriggerColliderCameraScript : MonoBehaviour {
     //i takes the riggidbody of the collided object and it teleports it 1pxl to the right
     void OnTriggerEnter2D(Collider2D objectCollided)
     {
-        rb = objectCollided.GetComponent<Rigidbody2D>();
+        //rb = objectCollided.GetComponent<Rigidbody2D>();
         if (objectCollided.tag.ToLower().Contains("player"))
         {
             Debug.Log("it M8 Work");
                 //rb.velocity = new Vector2(0, 0);
-            objectCollided.transform.position =new Vector3(gameObject.transform.position.x+0.6f, objectCollided.transform.position.y,1);
+            objectCollided.transform.position =new Vector3(gameObject.transform.position.x+1.6f, objectCollided.transform.position.y,1);
         }
     }
 
