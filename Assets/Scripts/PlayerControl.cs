@@ -14,8 +14,10 @@ public class PlayerControl : MonoBehaviour {
     private float extraJumpPower = 30; //how much can the player jump when holding Space
     private float moveX; //controls the player on the x-axis
 
-    public bool isGrounded; //checks if player is in touch with the ground
+    private bool isGrounded; //checks if player is in touch with the ground
+    private bool isDead = false;
 
+    public GameObject flytrapColliders;
     private Rigidbody2D rb;
     private Animator animator;
     private static PlayerControl instance;
@@ -25,11 +27,13 @@ public class PlayerControl : MonoBehaviour {
         {
             if (instance == null)
             {
-                instance = GameObject.FindObjectOfType<PlayerControl>();
+                instance = FindObjectOfType<PlayerControl>();
             }
             return instance;
         }
     }
+    public bool Grounded { get; set; }
+    public bool Dead { get; set; }
 
     void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -39,14 +43,21 @@ public class PlayerControl : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-        PlayerMove();
+    void Update()
+    {
+        Dead = isDead;
+        Grounded = isGrounded;
+        if (!isDead) { 
+            PlayerMove();
+        }
+        
 	}
 
     void FixedUpdate()
     {
         HandleLayers();
-        if (rb.velocity.y < 0)
+        HandleDead();
+        if (rb.velocity.y < 0 && !isDead)
         {
             animator.SetBool("Land", true);
         }  
@@ -74,7 +85,7 @@ public class PlayerControl : MonoBehaviour {
             if (extraJumpPower > 0)
             {
                 //Triggers the jumping animation
-                animator.SetTrigger("Jump");
+                
                 rb.AddForce(Vector2.up * jumpingPower * Time.deltaTime, ForceMode2D.Impulse);
                 extraJumpPower -= 10;
             }
@@ -103,6 +114,13 @@ public class PlayerControl : MonoBehaviour {
             animator.SetLayerWeight(1, 1);
         }
     }
+    void HandleDead()
+    {
+        if (Dead)
+        {
+            animator.SetTrigger("Dead");
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
@@ -111,5 +129,25 @@ public class PlayerControl : MonoBehaviour {
             isGrounded = true;
             extraJumpPower = 100;
         }
+        if (col.gameObject.tag.Equals("Flytraps"))
+        {
+            
+        }
+    }
+   
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag.Equals("Flytrap"))
+        {
+            StartCoroutine(Flytrap());
+        }
+    }
+  
+    private IEnumerator Flytrap()
+    {
+        yield return new WaitForSeconds(0.1f);
+        flytrapColliders.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        flytrapColliders.SetActive(false);
     }
 }

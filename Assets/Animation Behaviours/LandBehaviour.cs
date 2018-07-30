@@ -12,7 +12,7 @@ public class LandBehaviour : StateMachineBehaviour {
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (PlayerControl.Instance.isGrounded)
+        if (PlayerControl.Instance.Grounded && PlayerControl.Instance.Dead == false)
         {
             animator.SetBool("Land", false);
             animator.ResetTrigger("Jump");
