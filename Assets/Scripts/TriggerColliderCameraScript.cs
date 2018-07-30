@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //Temporary solution
@@ -21,7 +21,7 @@ public class TriggerColliderCameraScript : MonoBehaviour {
         {
             Debug.Log("it M8 Work");
                 //rb.velocity = new Vector2(0, 0);
-            objectCollided.transform.position =new Vector3(gameObject.transform.position.x+1.6f, objectCollided.transform.position.y,1);
+            objectCollided.transform.position =new Vector3(objectCollided.transform.position.x+1.6f, objectCollided.transform.position.y,1);
         }
     }
 
