@@ -32,7 +32,7 @@ public class Checkpoints : MonoBehaviour {
     //this is a public method that is called by the general script LoseScript
     public void OnLoose(GameObject Player)
     {
-        cameraMain.transform.Translate(0, 0,0);
+        cameraMain.transform.Translate(0,0,0);
         cameraMain.transform.position = new Vector3(checkpointArray[checkpointNumber].transform.position.x+12, checkpointArray[checkpointNumber].transform.position.y,GetComponent<Camera>().transform.position.z);
         player.transform.position = checkpointArray[checkpointNumber].transform.position;
         

@@ -124,14 +124,14 @@ public class PlayerControl : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Ground")
+        if (col.gameObject.tag.Equals("Ground"))
         {
             isGrounded = true;
             extraJumpPower = 100;
         }
         if (col.gameObject.tag.Equals("Flytraps"))
         {
-            
+
         }
     }
    
@@ -147,7 +147,7 @@ public class PlayerControl : MonoBehaviour {
     {
         yield return new WaitForSeconds(0.1f);
         flytrapColliders.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2.0f);
         flytrapColliders.SetActive(false);
     }
 }
