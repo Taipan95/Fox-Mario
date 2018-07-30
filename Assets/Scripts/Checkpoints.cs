@@ -6,7 +6,7 @@ public class Checkpoints : MonoBehaviour {
     // a list with The Checkpoints
     public List<GameObject> checkpointArray = new List<GameObject>();
     //gameobjects that will have to be teleported on loose
-    public GameObject player, camera;
+    public GameObject player, cameraMain;
     //creating a private collider for personal convenience
     private BoxCollider2D CheckCollider;
     //it starts from zero the FIRST CHECKPOINT IN THE GAME must be an invisible spawn point
@@ -32,8 +32,8 @@ public class Checkpoints : MonoBehaviour {
     //this is a public method that is called by the general script LoseScript
     public void OnLoose(GameObject Player)
     {
-        camera.transform.Translate(0, 0,0);
-        camera.transform.position = new Vector3(checkpointArray[checkpointNumber].transform.position.x+12, checkpointArray[checkpointNumber].transform.position.y,camera.transform.position.z);
+        cameraMain.transform.Translate(0, 0,0);
+        cameraMain.transform.position = new Vector3(checkpointArray[checkpointNumber].transform.position.x+12, checkpointArray[checkpointNumber].transform.position.y,GetComponent<Camera>().transform.position.z);
         player.transform.position = checkpointArray[checkpointNumber].transform.position;
         
     }
