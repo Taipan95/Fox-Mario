@@ -28,7 +28,7 @@ void Start()
         {
             //kanei metafora ton x aksona ths kameras ton proxoraei dld dn to thlemetaferei 
         
-                gameObject.transform.Translate((player.transform.position.x - CameraSetting) * Time.deltaTime, 0.0f, -2);
+                gameObject.transform.Translate((player.transform.position.x - CameraSetting) * Time.deltaTime*3, 0.0f, -2);
 
             
         }
