@@ -9,6 +9,7 @@ public class CameraMovement : MonoBehaviour
     //cameraSetting einai metabliti poy theti thn kamera sto simio to opoio theloyme na dinete h oratotita ston pexti
     //cameraSettingY dinoyme thn diafora ths apostasis poy eixe eksarxis o pextis me thn kamera etsi oste an pesi o pextis na eksisoropistoi pali i apostasi ths cameras apo ayton
     public float CameraSetting, CameraSettingY;
+
     
     //Use this for initialization
 
@@ -20,12 +21,16 @@ void Start()
     //Update is called once per frame
     void Update()
     {
+        
 
         //kanei elenxo metaksi apostasis tou object ths cameras kai toy x toy pextei kai an kseperastei tote metabalete o x aksonas
-        if (Mathf.Abs(cameraObject.transform.position.x - player.transform.position.x) >= 14)
-        {   //kanei metafora ton x aksona ths kameras ton proxoraei dld dn to thlemetaferei 
-            gameObject.transform.Translate((player.transform.position.x - CameraSetting) * Time.deltaTime, 0.0f, -2);
+        if (Mathf.Abs((player.transform.position.x)-(cameraObject.transform.position.x )) >= 17  )
+        {
+            //kanei metafora ton x aksona ths kameras ton proxoraei dld dn to thlemetaferei 
+        
+                gameObject.transform.Translate((player.transform.position.x - CameraSetting) * Time.deltaTime*3, 0.0f, -2);
 
+            
         }
         //opos kai apo epanno an kseperasti mia timh dosmenh apostaseis pexti me kameras energopiite o kombos
         if (Mathf.Abs(gameObject.transform.position.y+7 - player.transform.position.y) >= 10)
