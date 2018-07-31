@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerControl : MonoBehaviour {
 
@@ -10,13 +12,18 @@ public class PlayerControl : MonoBehaviour {
 
     private int jumpingPower = 140;
     private int playerSpeed = 10;
+    [HideInInspector] public static int points = 0;
 
+    [HideInInspector] public static float bonusScore = 0;
     private float extraJumpPower = 30; //how much can the player jump when holding Space
     private float moveX; //controls the player on the x-axis
+    private float timer = 100;
 
     private bool isGrounded; //checks if player is in touch with the ground
     private bool isDead = false;
 
+    public Text pointsTxt; //coins etc. collected
+    public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
     private Rigidbody2D rb;
     private Animator animator;
@@ -45,6 +52,9 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        timer -= Time.deltaTime;
+        bonusScoreTxt.text = "Bonus Score: " + timer.ToString("0.00");
+
         Dead = isDead;
         Grounded = isGrounded;
         if (!isDead) { 
@@ -142,6 +152,12 @@ public class PlayerControl : MonoBehaviour {
         if (col.gameObject.tag.Equals("Flytrap"))
         {
             StartCoroutine(Flytrap());
+        }
+        if (col.gameObject.CompareTag("Collectable"))
+        {
+            col.gameObject.SetActive(false);
+            points++;
+            pointsTxt.text = "Points Collected: " + points.ToString();
         }
     }
   
