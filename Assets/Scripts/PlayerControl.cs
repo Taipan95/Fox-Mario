@@ -144,6 +144,7 @@ public class PlayerControl : MonoBehaviour {
             extraJumpPower = 100;
         }
        
+       
     }
    
     public void OnRespawn()
@@ -167,6 +168,12 @@ public class PlayerControl : MonoBehaviour {
         if (col.gameObject.tag.Equals("Tiger"))
         {
             tigerGameObject.SetActive(true);
+        }
+        //added a constrant that if the y axes of the player are greater than the object collided then it disables it and a point is added
+        if (col.tag.ToLower().Contains("enemy") && col.transform.position.y < gameObject.transform.position.y)
+        {
+            col.gameObject.SetActive(false);
+            points++;
         }
     }
   

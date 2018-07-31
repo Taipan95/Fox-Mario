@@ -44,7 +44,7 @@ public class LoseScript : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D Coli)
     {
         currentPlayerPositionx = gameObject.transform.position.x;
-        if (Coli.tag.ToLower().Contains("enemy"))
+        if (Coli.tag.ToLower().Contains("enemy") &&gameObject.transform.position.y<=Coli.transform.position.y)
         {
          isHit = true;
             onDeath();   
@@ -58,6 +58,7 @@ public class LoseScript : MonoBehaviour {
             onDeath();
 
         }
+        
     }
     private void afterDeath()
     { 
@@ -76,6 +77,7 @@ public class LoseScript : MonoBehaviour {
     }
     private void onDeath()
     {
+        PlayerControl.Instance.animator.SetBool("Jump", false);
         PlayerControl.Instance.animator.SetBool("Dead", true);
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         gameObject.GetComponent<PlayerControl>().enabled = false;
