@@ -8,7 +8,7 @@ public class EnemyFollowPlayer1 : MonoBehaviour {
     private float followtimer = 0;
     private float rayDistance = 0.8f;
 
-    private int enemyJumpingPower = 220;
+    private int enemyJumpingPower = 90;
 
     private Vector3 playerPosition;
     public GameObject Player;
@@ -46,10 +46,14 @@ public class EnemyFollowPlayer1 : MonoBehaviour {
         //{
         //    FollowingEnemy[2].GetComponent<Rigidbody2D>().AddForce(new Vector2(0, enemyJumpingPower));
         //}
-
-        playerPosition = Player.transform.position;
+        //if (rayLeft2.distance <0.8f && rayLeft2.collider.CompareTag("Ground"))
+        //{
+        //    print(rayLeft2.collider.tag);
+        //    FollowingEnemy[1].GetComponent<Rigidbody2D>().AddForce(new Vector2(0, enemyJumpingPower));
+        //}
 
         //makes every enemy go towards the current position of the player
+        playerPosition = Player.transform.position;
         foreach(GameObject enemy in FollowingEnemy)
         {
             if (System.Math.Abs(enemy.transform.position.x - playerPosition.x) < 11)
