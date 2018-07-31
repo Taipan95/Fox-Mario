@@ -5,12 +5,12 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour {
 
     //SXOLIA : in order to work properly make a tag "Ground" and assign it to every surface that the player is able to jump from
+    //apply grivity 4.4 to player so that he falls down quickly after jumping
 
 
     private int jumpingPower = 140;
     private int playerSpeed = 10;
 
-    public float jumpTimer = 0;
     private float extraJumpPower = 30; //how much can the player jump when holding Space
     private float moveX; //controls the player on the x-axis
 
