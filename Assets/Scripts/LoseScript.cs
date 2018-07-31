@@ -7,7 +7,7 @@ public class LoseScript : MonoBehaviour {
     public double timer;
     public double deathDelay;
     public bool isHit = false,free;
-    private float currentPlayerPositionx;
+    //private float currentPlayerPositionx;
 	// Use this for initialization
 	void Start () {
 }
@@ -18,7 +18,7 @@ public class LoseScript : MonoBehaviour {
             timer+=Time.deltaTime;
             //Debug.Log(+timer);
             if (timer > deathDelay)
-            {  if (isHit = true)
+            {  if (isHit)
                 {
                     free = true;
                 }
@@ -43,7 +43,7 @@ public class LoseScript : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D Coli)
     {
-        currentPlayerPositionx = gameObject.transform.position.x;
+        //currentPlayerPositionx = gameObject.transform.position.x;
         if (Coli.tag.ToLower().Contains("enemy") &&gameObject.transform.position.y<=Coli.transform.position.y)
         {
          isHit = true;
@@ -52,7 +52,7 @@ public class LoseScript : MonoBehaviour {
         }
         if (Coli.name.ToLower().Contains("death"))
         {
-        currentPlayerPositionx = gameObject.transform.position.x;
+        //currentPlayerPositionx = gameObject.transform.position.x;
 
             isHit = true;
             onDeath();
