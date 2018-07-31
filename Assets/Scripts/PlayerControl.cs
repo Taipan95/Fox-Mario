@@ -85,7 +85,7 @@ public class PlayerControl : MonoBehaviour {
             if (extraJumpPower > 0)
             {
                 //Triggers the jumping animation
-                
+                animator.SetTrigger("Jump");
                 rb.AddForce(Vector2.up * jumpingPower * Time.deltaTime, ForceMode2D.Impulse);
                 extraJumpPower -= 10;
             }
