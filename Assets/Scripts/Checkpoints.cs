@@ -11,8 +11,10 @@ public class Checkpoints : MonoBehaviour {
     private BoxCollider2D CheckCollider;
     //it starts from zero the FIRST CHECKPOINT IN THE GAME must be an invisible spawn point
     private int checkpointNumber=0;
-	// Use this for initialization
-	void Start () {
+    //a public float that it will be usefull to tune the camera at our needs
+    public float cameraDistance;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -32,8 +34,13 @@ public class Checkpoints : MonoBehaviour {
     //this is a public method that is called by the general script LoseScript
     public void OnLoose(GameObject Player)
     {
+<<<<<<< Updated upstream
         cameraMain.transform.Translate(0,0,0);
         cameraMain.transform.position = new Vector3(checkpointArray[checkpointNumber].transform.position.x+12, checkpointArray[checkpointNumber].transform.position.y,GetComponent<Camera>().transform.position.z);
+=======
+        cameraMain.transform.Translate(0, 0,0);
+        cameraMain.transform.position = new Vector3(checkpointArray[checkpointNumber].transform.position.x+12, checkpointArray[checkpointNumber].transform.position.y, cameraDistance);
+>>>>>>> Stashed changes
         player.transform.position = checkpointArray[checkpointNumber].transform.position;
         
     }
