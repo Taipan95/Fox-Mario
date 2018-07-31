@@ -1,25 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerControl : MonoBehaviour {
 
     //SXOLIA : in order to work properly make a tag "Ground" and assign it to every surface that the player is able to jump from
+    //apply grivity 4.4 to player so that he falls down quickly after jumping
 
 
     private int jumpingPower = 140;
     private int playerSpeed = 10;
+    [HideInInspector] public static int points = 0;
 
-    public float jumpTimer = 0;
+    [HideInInspector] public static float bonusScore = 0;
     private float extraJumpPower = 30; //how much can the player jump when holding Space
     private float moveX; //controls the player on the x-axis
+    private float timer = 100;
 
     private bool isGrounded; //checks if player is in touch with the ground
     private bool isDead = false;
-
+    public Text pointsTxt; //coins etc. collected
+    public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
-    private Rigidbody2D rb;
-    private Animator animator;
+    public Rigidbody2D rb;
+    public Animator animator;
     private static PlayerControl instance;
     public static PlayerControl Instance
     {
@@ -45,6 +51,9 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        timer -= Time.deltaTime;
+        bonusScoreTxt.text = "Bonus Score: " + timer.ToString("0.00");
+
         Dead = isDead;
         Grounded = isGrounded;
         if (!isDead) { 
@@ -129,6 +138,7 @@ public class PlayerControl : MonoBehaviour {
             isGrounded = true;
             extraJumpPower = 100;
         }
+       
     }
    
     public void OnRespawn()
@@ -143,12 +153,19 @@ public class PlayerControl : MonoBehaviour {
         {
             StartCoroutine(Flytrap());
         }
+        if (col.gameObject.CompareTag("Collectable"))
+        {
+            col.gameObject.SetActive(false);
+            points++;
+            pointsTxt.text = "Points Collected: " + points.ToString();
+        }
     }
   
     private IEnumerator Flytrap()
     {
         yield return new WaitForSeconds(0.1f);
         flytrapColliders.SetActive(true);
+        rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(2.0f);
         flytrapColliders.SetActive(false);
     }
