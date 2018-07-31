@@ -13,12 +13,12 @@ public class NewCameraMovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //if the gameobject moves so does and the camera
-        if (player.GetComponent<Rigidbody2D>().velocity.x>0 &&  Mathf.Abs((player.transform.position.x) - (CameraObject.transform.position.x)) >= 30)
+        if (player.GetComponent<Rigidbody2D>().velocity.x>0 &&  Mathf.Abs((player.transform.position.x) - (CameraObject.transform.position.x)) >= 14)
         {
             gameObject.GetComponent<Rigidbody2D>().velocity=new Vector2(player.GetComponent<Rigidbody2D>().velocity.x, gameObject.GetComponent<Rigidbody2D>().velocity.y);
         }
         //else if player is iddle or moving towards the collider the camera stops moving
-       else  if (player.GetComponent<Rigidbody2D>().velocity.x <= 0)
+       else  if (player.GetComponent<Rigidbody2D>().velocity.x <= 0 || player.GetComponent<Rigidbody2D>().velocity.x<=8)
         {
             gameObject.GetComponent<Rigidbody2D>().velocity =new Vector2(0f, gameObject.GetComponent<Rigidbody2D>().velocity.y);
         }
