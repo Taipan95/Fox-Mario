@@ -12,9 +12,11 @@ public class PlayerControl : MonoBehaviour {
 
     private int jumpingPower = 140;
     private int playerSpeed = 10;
-    [HideInInspector] public static int points = 0;
+    [HideInInspector]
+    public static int points = 0;
 
-    [HideInInspector] public static float bonusScore = 0;
+    [HideInInspector]
+    public static float bonusScore = 0;
     private float extraJumpPower = 30; //how much can the player jump when holding Space
     private float moveX; //controls the player on the x-axis
     private float timer = 100;
@@ -24,7 +26,10 @@ public class PlayerControl : MonoBehaviour {
     public Text pointsTxt; //coins etc. collected
     public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
+    public GameObject tigerGameObject;
+    [HideInInspector]
     public Rigidbody2D rb;
+    [HideInInspector]
     public Animator animator;
     private static PlayerControl instance;
     public static PlayerControl Instance
@@ -158,6 +163,10 @@ public class PlayerControl : MonoBehaviour {
             col.gameObject.SetActive(false);
             points++;
             pointsTxt.text = "Points Collected: " + points.ToString();
+        }
+        if (col.gameObject.tag.Equals("Tiger"))
+        {
+            tigerGameObject.SetActive(true);
         }
     }
   

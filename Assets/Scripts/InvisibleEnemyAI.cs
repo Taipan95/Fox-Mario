@@ -12,7 +12,6 @@ public class InvisibleEnemyAI : MonoBehaviour {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         //disables the image and choses the orientationif the object is left or right of the player
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
         if (gameObject.transform.position.x > player.transform.position.x)
         {
             enemyOrientation = -1;
