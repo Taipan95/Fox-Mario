@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Ground
   - Flytrap
-  - Flytraps
   - Collectable
+  - Tiger
   layers:
   - Default
   - TransparentFX

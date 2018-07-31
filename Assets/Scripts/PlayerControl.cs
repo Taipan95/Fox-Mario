@@ -21,12 +21,11 @@ public class PlayerControl : MonoBehaviour {
 
     private bool isGrounded; //checks if player is in touch with the ground
     private bool isDead = false;
-
     public Text pointsTxt; //coins etc. collected
     public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
-    private Rigidbody2D rb;
-    private Animator animator;
+    public Rigidbody2D rb;
+    public Animator animator;
     private static PlayerControl instance;
     public static PlayerControl Instance
     {
@@ -139,6 +138,7 @@ public class PlayerControl : MonoBehaviour {
             isGrounded = true;
             extraJumpPower = 100;
         }
+       
     }
    
     public void OnRespawn()
@@ -165,6 +165,7 @@ public class PlayerControl : MonoBehaviour {
     {
         yield return new WaitForSeconds(0.1f);
         flytrapColliders.SetActive(true);
+        rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(2.0f);
         flytrapColliders.SetActive(false);
     }
