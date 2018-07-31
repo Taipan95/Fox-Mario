@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36409693c11659e4981cf58be6a5756e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 725399505}
   FollowingEnemy: []
 --- !u!4 &1652124645
 Transform:
