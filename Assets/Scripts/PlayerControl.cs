@@ -27,6 +27,7 @@ public class PlayerControl : MonoBehaviour {
     public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
     public GameObject tigerGameObject;
+    private float flytrapTimer = 0;
     [HideInInspector]
     public Rigidbody2D rb;
     [HideInInspector]
@@ -155,10 +156,10 @@ public class PlayerControl : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag.Equals("Flytrap"))
-        {
-            StartCoroutine(Flytrap());
-        }
+        //if (col.gameObject.tag.Equals("Flytrap"))
+        //{
+        //    StartCoroutine(Flytrap());
+        //}
         if (col.gameObject.CompareTag("Collectable"))
         {
             col.gameObject.SetActive(false);
@@ -174,22 +175,46 @@ public class PlayerControl : MonoBehaviour {
         {
             col.gameObject.SetActive(false);
             points++;
+            pointsTxt.text = "Points Collected: " + points.ToString();
         }
     }
-  
-    private IEnumerator Flytrap()
+
+    void OnTriggerStay2D(Collider2D other)
     {
-        yield return new WaitForSeconds(0.1f);
-        flytrapColliders.SetActive(true);
-     //   GameObject.Find("Flytrap").transform.GetChild(0).gameObject.SetActive(true);
-        rb.velocity = Vector2.zero;
-        yield return new WaitForSeconds(0.5f);
-        if (moveX != 0)
+        if (other.gameObject.tag.Equals("Flytrap"))
         {
-            isDead = true;
+            flytrapColliders.SetActive(true);
+            GameObject.Find("Flytrap").transform.GetChild(0).gameObject.SetActive(true);
+            flytrapTimer += Time.deltaTime;
+            Debug.Log("flytraptimer "+ flytrapTimer);
+            if (flytrapTimer <= 1f)
+            {
+                rb.velocity = Vector2.zero;
+                Debug.Log("Velocity: "+ rb.velocity);
+            }
+            else if (flytrapTimer < 2.5f && (moveX != 0 || Input.GetKey(KeyCode.Space)))
+            {
+                Debug.Log("flytraptimer " + flytrapTimer);
+                Debug.Log("RIP");
+                isDead = true;
+            }
+            else if (flytrapTimer >= 2)
+            {
+                flytrapColliders.SetActive(false);
+                GameObject.Find("Flytrap").transform.GetChild(0).gameObject.SetActive(false);
+            }
+           
         }
-        yield return new WaitForSeconds(1.5f);
-       // GameObject.Find("Flytrap").transform.GetChild(0).gameObject.SetActive(false);
-        flytrapColliders.SetActive(false);
     }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("Flytrap"))
+        {
+            flytrapTimer = 0;
+            Debug.Log("flytraptimer " + flytrapTimer);
+            flytrapColliders.SetActive(false);
+        }
+    }
+
 }
