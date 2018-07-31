@@ -129,12 +129,14 @@ public class PlayerControl : MonoBehaviour {
             isGrounded = true;
             extraJumpPower = 100;
         }
-        if (col.gameObject.tag.Equals("Flytraps"))
-        {
-
-        }
     }
    
+    public void OnRespawn()
+    {
+        Dead = isDead = false;
+        animator.SetBool("Dead", false);
+    }
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag.Equals("Flytrap"))
