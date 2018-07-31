@@ -174,8 +174,15 @@ public class PlayerControl : MonoBehaviour {
     {
         yield return new WaitForSeconds(0.1f);
         flytrapColliders.SetActive(true);
+     //   GameObject.Find("Flytrap").transform.GetChild(0).gameObject.SetActive(true);
         rb.velocity = Vector2.zero;
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(0.5f);
+        if (moveX != 0)
+        {
+            isDead = true;
+        }
+        yield return new WaitForSeconds(1.5f);
+       // GameObject.Find("Flytrap").transform.GetChild(0).gameObject.SetActive(false);
         flytrapColliders.SetActive(false);
     }
 }
