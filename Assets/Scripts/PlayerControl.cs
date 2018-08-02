@@ -139,13 +139,25 @@ public class PlayerControl : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag.Equals("Ground"))
+        if (col.gameObject.tag.Equals("Ground") || col.gameObject.tag.ToLower().Contains("flyingbox"))
         {
             isGrounded = true;
             extraJumpPower = 100;
         }
+      
+
+
+    }
+    private void OnCollisionStay2D(Collision2D col)
+    {
+        if (col.gameObject.tag.ToLower().Contains("flyingbox"))
+        {
+            if (col.gameObject.transform.position.y >= gameObject.transform.position.y)
+            {
+                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -100000000000000);
+            }
        
-       
+        }
     }
    
     public void OnRespawn()
