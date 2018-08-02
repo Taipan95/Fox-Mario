@@ -8,6 +8,7 @@ TagManager:
   - Flytrap
   - Collectable
   - Tiger
+  - Death
   layers:
   - Default
   - TransparentFX

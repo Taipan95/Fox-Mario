@@ -16,17 +16,14 @@ public class Checkpoints : MonoBehaviour {
     private float currentPlayerPositionx;
     public bool respawnIsSet;
     private float ycameraAxes;
-    // Use this for initialization
+
+
     void Start () {
         ycameraAxes = cameraMain.transform.position.y;
-        Debug.Log(+ycameraAxes+"edo einai ^_^");
-
     }
 	
-	// Update is called once per frame
-	void Update () {
- 
-	}
+
+
     void OnTriggerEnter2D(Collider2D coli)
     {   //if the object collided is a checkpoint then checkpoint number is increased by one the colllider of that object turns of
         if (coli.tag.ToLower().Contains("checkpoint"))
