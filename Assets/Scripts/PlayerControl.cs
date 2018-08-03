@@ -151,7 +151,8 @@ public class PlayerControl : MonoBehaviour {
        
         }
     }
-   
+
+
     public void OnRespawn()
     {
         Dead = isDead = false;

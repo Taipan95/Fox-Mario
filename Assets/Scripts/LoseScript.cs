@@ -49,18 +49,10 @@ public class LoseScript : MonoBehaviour
             onDeath();
         }
         //the same as above only this time is on the invisible deathzone this might change a tiny bit in the future if it starts causing problems and might only the ressurection part takes place
-        if (Coli.name.ToLower().Contains("death"))
-        {
-            //currentPlayerPositionx = gameObject.transform.position.x;
-
-            isHit = true;
-            onDeath();
-
-        }
         if (Coli.CompareTag("Death"))//de bgzw akri (petros)
         {
-            isHit = true;
-            onDeath();
+            print("yes");
+            gameObject.GetComponent<Checkpoints>().OnLoose(this.gameObject);
         }
     }
 
