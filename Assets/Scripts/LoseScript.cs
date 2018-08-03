@@ -13,7 +13,6 @@ public class LoseScript : MonoBehaviour
     private float enemySchildY;
     public GameObject PlayersFoot;
     public bool isHit = false,free;
-    public bool isHit = false, free;
 
 
     // Update is called once per frame
