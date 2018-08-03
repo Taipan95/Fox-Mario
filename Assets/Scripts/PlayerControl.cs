@@ -23,6 +23,7 @@ public class PlayerControl : MonoBehaviour {
 
     private bool isGrounded; //checks if player is in touch with the ground
     private bool isDead = false;
+
     public Text pointsTxt; //coins etc. collected
     public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
@@ -62,6 +63,7 @@ public class PlayerControl : MonoBehaviour {
 
         Dead = isDead;
         Grounded = isGrounded;
+
         if (!isDead) { 
             PlayerMove();
         }
@@ -94,7 +96,7 @@ public class PlayerControl : MonoBehaviour {
         rb.velocity = new Vector2(moveX * playerSpeed, rb.velocity.y);
 
         //JUMP
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) )
         {
             isGrounded = false;
             if (extraJumpPower > 0)
@@ -137,17 +139,7 @@ public class PlayerControl : MonoBehaviour {
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.tag.Equals("Ground") || col.gameObject.tag.ToLower().Contains("flyingbox"))
-        {
-            isGrounded = true;
-            extraJumpPower = 100;
-        }
-      
 
-
-    }
     private void OnCollisionStay2D(Collision2D col)
     {
         if (col.gameObject.tag.ToLower().Contains("flyingbox"))
@@ -172,6 +164,11 @@ public class PlayerControl : MonoBehaviour {
         //{
         //    StartCoroutine(Flytrap());
         //}
+        if (col.gameObject.tag.Equals("Ground") || col.gameObject.tag.ToLower().Contains("flyingbox"))
+        {
+            isGrounded = true;
+            extraJumpPower = 100;
+        }
         if (col.gameObject.CompareTag("Collectable"))
         {
             col.gameObject.SetActive(false);
