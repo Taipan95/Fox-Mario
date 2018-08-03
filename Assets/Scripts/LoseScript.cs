@@ -9,6 +9,8 @@ public class LoseScript : MonoBehaviour {
     public double deathDelay;
     //ishit is used in case the object is been hit and free is used a a boolean that checks if the death delay is over
     public bool isHit = false,free;
+    public GameObject PlayersFoot;
+    private float enemySchildY;
 	// Use this for initialization
 	void Start () {
 }
@@ -44,16 +46,20 @@ public class LoseScript : MonoBehaviour {
 
         
     }
-    void OnTriggerEnter2D(Collider2D Coli)
+    void OnCollisionEnter2D(Collision2D Coli)
     {   //on trigger the is hit is set to true also the effects of thanatos start to take place also it checks if the gameObject sould die or not by the Collision with the enemy
-        if (Coli.tag.ToLower().Contains("enemy") &&gameObject.transform.position.y<=Coli.transform.position.y)
+        if (Coli.gameObject.tag.ToLower().Contains("enemy")  )
         {
-         isHit = true;
-            onDeath();   
-
+            //the position of y axes of the child of the object
+            enemySchildY = Coli.gameObject.transform.GetChild(0).transform.position.y;
+            if (PlayersFoot.transform.position.y < enemySchildY)
+            {
+                isHit = true;
+                onDeath();
+            }
         }
         //the same as above only this time is on the invisible deathzone this might change a tiny bit in the future if it starts causing problems and might only the ressurection part takes place
-        if (Coli.name.ToLower().Contains("death"))
+        if (Coli.gameObject.name.ToLower().Contains("death"))
         {
         //currentPlayerPositionx = gameObject.transform.position.x;
 
@@ -69,7 +75,6 @@ public class LoseScript : MonoBehaviour {
     { 
         //gameObject.transform.position = gameObject.transform.position;
      
-            Debug.Log("entered");
 
         PlayerControl.Instance.animator.SetBool("Dead", false);
             gameObject.GetComponent<BoxCollider2D>().enabled = true;
@@ -94,5 +99,6 @@ public class LoseScript : MonoBehaviour {
         free = false;
        
     }
+   
 
 }

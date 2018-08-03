@@ -27,6 +27,7 @@ public class PlayerControl : MonoBehaviour {
     public Text bonusScoreTxt; //score that is added to the final points(it is a timer that gets multyplied by a value)
     public GameObject flytrapColliders;
     public GameObject tigerGameObject;
+    public GameObject playersFoot;
     private float flytrapTimer = 0;
     [HideInInspector]
     public Rigidbody2D rb;
@@ -144,7 +145,14 @@ public class PlayerControl : MonoBehaviour {
             isGrounded = true;
             extraJumpPower = 100;
         }
-      
+        //added a constrant that if the y axes of the player are greater than the object collided then it disables it and a point is added
+        if (col.gameObject.tag.ToLower().Contains("enemy") )
+        {
+           if ( col.gameObject.transform.GetChild(0).transform.position.y < playersFoot.transform.position.y){
+                col.gameObject.SetActive(false);
+                points++;
+                pointsTxt.text = "Points Collected: " + points.ToString(); }
+        }
 
 
     }
@@ -182,13 +190,7 @@ public class PlayerControl : MonoBehaviour {
         {
             tigerGameObject.SetActive(true);
         }
-        //added a constrant that if the y axes of the player are greater than the object collided then it disables it and a point is added
-        if (col.tag.ToLower().Contains("enemy") && col.transform.position.y < gameObject.transform.position.y)
-        {
-            col.gameObject.SetActive(false);
-            points++;
-            pointsTxt.text = "Points Collected: " + points.ToString();
-        }
+       
     }
 
     void OnTriggerStay2D(Collider2D other)
