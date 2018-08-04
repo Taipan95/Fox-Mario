@@ -10,10 +10,7 @@ public class LoseScript : MonoBehaviour
     //the time which the death will last
     public double deathDelay;
     //ishit is used in case the object is been hit and free is used a a boolean that checks if the death delay is over
-    private float enemySchildY;
-    public GameObject PlayersFoot;
     public bool isHit = false,free;
-    public bool isHit = false, free;
 
 
     // Update is called once per frame
@@ -27,34 +24,38 @@ public class LoseScript : MonoBehaviour
             //the time which it take before the respawn
             if (timer > deathDelay)
             {
-                free = true;
-
-                //if free is true then isHitsIs turned of since the object is no longer under the grasp of thanatos also ressurection starts to take place
-                if (free)
-                {
+             
                     isHit = false;
                     afterDeath();
-                }
+                
             }
         }
         //when the timer gets greater than the time needed for the death to take place it Resets to 0
         if (timer >= deathDelay) { timer = 0; }
 
     }
-
-
-    void OnTriggerEnter2D(Collider2D Coli)
+  
+    void OnCollisionEnter2D(Collision2D Coli)
     {
-        //on trigger the is hit is set to true also the effects of thanatos start to take place also it checks if the gameObject sould die or not by the Collision with the enemy
-        if (Coli.tag.ToLower().Contains("enemy") && gameObject.transform.position.y <= Coli.transform.position.y)
-        {
-            isHit = true;
-            onDeath();
+       // on trigger the is hit is set to true also the effects of thanatos start to take place also it checks if the gameObject sould die or not by the Collision with the enemy
+        if (Coli.gameObject.tag.ToLower().Contains("enemy"))
+        { if ((gameObject.transform.position.y - gameObject.transform.lossyScale.y/2) < (Coli.gameObject.transform.position.y + Coli.transform.lossyScale.y/4 ))
+            {
+              
+                isHit = true;
+                onDeath();
+            }
+            }
         }
+
+
+        void OnTriggerEnter2D(Collider2D Coli)
+    {
+        
+      
         //the same as above only this time is on the invisible deathzone this might change a tiny bit in the future if it starts causing problems and might only the ressurection part takes place
-        if (Coli.CompareTag("Death"))//de bgzw akri (petros)
+        if (Coli.gameObject.CompareTag("Death"))//de bgzw akri (petros)
         {
-            print("yes");
             gameObject.GetComponent<Checkpoints>().OnLoose(this.gameObject);
         }
     }
@@ -64,9 +65,7 @@ public class LoseScript : MonoBehaviour
     //also some variables are been reset and the onLooseMethod is called from checkpoints so the player will be teleported there
     private void afterDeath()
     {
-        //gameObject.transform.position = gameObject.transform.position;
-
-        Debug.Log("entered");
+        
 
         PlayerControl.Instance.animator.SetBool("Dead", false);
         gameObject.GetComponent<BoxCollider2D>().enabled = true;

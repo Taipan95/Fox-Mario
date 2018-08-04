@@ -152,6 +152,20 @@ public class PlayerControl : MonoBehaviour {
        
         }
     }
+    private void  OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag.ToLower().Contains("enemy")) {
+            { if (((gameObject.transform.position.y - gameObject.transform.lossyScale.y / 2) >= (col.gameObject.transform.position.y + col.transform.lossyScale.y / 4) )){
+                    print(+(gameObject.transform.position.y - gameObject.transform.lossyScale.y / 2) + "player");
+                    print(+(col.gameObject.transform.position.y + col.transform.lossyScale.y / 2) + "enemy");
+
+                    col.gameObject.SetActive(false);
+                    points++;
+                    pointsTxt.text = "Points Collected: " + points.ToString();
+                }
+            }
+        }
+    }
 
 
     public void OnRespawn()
@@ -181,7 +195,9 @@ public class PlayerControl : MonoBehaviour {
         {
             tigerGameObject.SetActive(true);
         }
-       
+        //in case of enemy kill this is called
+     
+
     }
 
     void OnTriggerStay2D(Collider2D other)
