@@ -156,9 +156,10 @@ public class PlayerControl : MonoBehaviour {
     {
         if (col.gameObject.tag.ToLower().Contains("enemy")) {
             { if (((gameObject.transform.position.y - gameObject.transform.lossyScale.y / 2) >= (col.gameObject.transform.position.y + col.transform.lossyScale.y / 4) )){
-                    print(+(gameObject.transform.position.y - gameObject.transform.lossyScale.y / 2) + "player");
-                    print(+(col.gameObject.transform.position.y + col.transform.lossyScale.y / 2) + "enemy");
+                
 
+                    isGrounded = true;
+                    extraJumpPower = 100;
                     col.gameObject.SetActive(false);
                     points++;
                     pointsTxt.text = "Points Collected: " + points.ToString();
