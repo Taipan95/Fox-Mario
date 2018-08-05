@@ -155,11 +155,10 @@ public class PlayerControl : MonoBehaviour {
     private void  OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.ToLower().Contains("enemy")) {
-            { if (((gameObject.transform.position.y - gameObject.transform.lossyScale.y / 2) >= (col.gameObject.transform.position.y + col.transform.lossyScale.y / 4) )){
-                
-
-                    isGrounded = true;
-                    extraJumpPower = 100;
+            { if (((gameObject.transform.position.y - gameObject.transform.lossyScale.y / 2) >= (col.gameObject.transform.position.y + col.transform.lossyScale.y / 4) )){           
+                         isGrounded = false;           
+                        animator.SetTrigger("Jump");
+                    rb.velocity=new Vector2(rb.velocity.x, 1000 * Time.deltaTime);
                     col.gameObject.SetActive(false);
                     points++;
                     pointsTxt.text = "Points Collected: " + points.ToString();
