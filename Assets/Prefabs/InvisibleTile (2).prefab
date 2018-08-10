@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 251379892864186942}
   - component: {fileID: 114641863205098054}
   m_Layer: 0
-  m_Name: InvisibleTile
+  m_Name: InvisibleTile (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
