@@ -16,16 +16,19 @@ public class ExtraFlyingAiScript : MonoBehaviour {
         Axes += Time.deltaTime;
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(1 * velocityOfbox, Mathf.Cos((-Axes)) * velocityOfbox);
         timerOfThisGameObject += 0.5f;
+        gameObject.GetComponent<SpriteRenderer>().flipX = true;
         if (timerOfThisGameObject >= timeTillRightSide)
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+
             gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-1 * velocityOfbox, Mathf.Cos((-Axes)) * velocityOfbox);
         }
         if (timerOfThisGameObject == timeTillLeftSide)
         {
+
             gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(11 * velocityOfbox, Mathf.Cos((-Axes)) * velocityOfbox);
         }
         if (timerOfThisGameObject>= endLoopTimer) {
-
             timerOfThisGameObject = 0;
 
 

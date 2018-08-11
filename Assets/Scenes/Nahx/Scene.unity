@@ -14944,9 +14944,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocityOfbox: 6
-  timeTillRightSide: 200
-  timeTillLeftSide: 400
-  endLoopTimer: 400.5
+  timeTillRightSide: 100
+  timeTillLeftSide: 200
+  endLoopTimer: 200.5
 --- !u!4 &1624768473 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4029927921639700, guid: 2ba919a1f5274eb468a74334b27c75c3,
@@ -15641,12 +15641,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704106023}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.48087674, y: -0, z: -0, w: 0.87678826}
+  m_LocalPosition: {x: 18.36965, y: -4.0704494, z: -1.0942264}
+  m_LocalScale: {x: 0.73631465, y: 0.698969, z: 0.93755865}
   m_Children: []
-  m_Father: {fileID: 1932884728}
-  m_RootOrder: 0
+  m_Father: {fileID: 1990122559}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 57.485004, y: 0, z: 0}
 --- !u!1 &1708192665
 GameObject:
@@ -17689,7 +17689,7 @@ GameObject:
   - component: {fileID: 1932884728}
   - component: {fileID: 1932884729}
   m_Layer: 0
-  m_Name: NahxsObjectSAdded
+  m_Name: FlyingBoxMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17704,8 +17704,7 @@ Transform:
   m_LocalRotation: {x: 0.48087674, y: -0, z: -0, w: 0.87678826}
   m_LocalPosition: {x: 1372.39, y: 240.32, z: 0}
   m_LocalScale: {x: 0.58325195, y: 0.45065683, z: 1}
-  m_Children:
-  - {fileID: 1704106026}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18401,6 +18400,7 @@ Transform:
   - {fileID: 559077501}
   - {fileID: 487096709}
   - {fileID: 1692518192}
+  - {fileID: 1704106026}
   m_Father: {fileID: 1483930398}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19153,6 +19153,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: ab329960ec31bbd4982050f5d613014a,
         type: 3}
+    - target: {fileID: 212744421330904926, guid: 2ba919a1f5274eb468a74334b27c75c3,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ba919a1f5274eb468a74334b27c75c3, type: 2}
   m_IsPrefabParent: 0
