@@ -42,7 +42,7 @@ public class Checkpoints : MonoBehaviour {
     {
         cameraMain.transform.Translate(0, 0,0);
         cameraMain.transform.position = new Vector3(checkpointArray[checkpointNumber].transform.position.x+cameraSettingWhenTeleports, ycameraAxes, cameraDistanceZ);
-        player.transform.position = checkpointArray[checkpointNumber].transform.position;
+        player.transform.position =new Vector3(checkpointArray[checkpointNumber].transform.position.x, checkpointArray[checkpointNumber].transform.position.y,0);
    
 
     }

@@ -9,6 +9,7 @@ TagManager:
   - Collectable
   - Tiger
   - Death
+  - enemy
   layers:
   - Default
   - TransparentFX
