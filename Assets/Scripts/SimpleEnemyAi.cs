@@ -13,11 +13,19 @@ public class SimpleEnemyAi : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(velocityOfGAMEobject, 0);
-
+        if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (gameObject.GetComponent<Rigidbody2D>().velocity.x < 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
         velocityOfGAMEobject = -velocityOfGAMEobject;
+
     } private void OnTriggerEnter2D(Collider2D col)
     {
         velocityOfGAMEobject = -velocityOfGAMEobject;
