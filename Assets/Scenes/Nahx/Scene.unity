@@ -637,7 +637,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -2421,7 +2421,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -2591,7 +2591,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 2097452382}
   m_GameObject: {fileID: 272974310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5170,7 +5170,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1841872224}
   m_GameObject: {fileID: 519291673}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5510,7 +5510,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 603208759}
   m_GameObject: {fileID: 541014174}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5985,7 +5985,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -7425,7 +7425,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -7700,7 +7700,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 39666713}
   m_GameObject: {fileID: 769939859}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7864,7 +7864,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 739832050}
   m_GameObject: {fileID: 779491860}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8952,7 +8952,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1328685972}
   m_GameObject: {fileID: 871397192}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9616,7 +9616,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -11022,7 +11022,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -12466,7 +12466,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 270319361}
   m_GameObject: {fileID: 1189346895}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13525,7 +13525,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -14404,7 +14404,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 937600861}
   m_GameObject: {fileID: 1427051555}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -18272,7 +18272,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1085805395}
   m_GameObject: {fileID: 1745894802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -18956,7 +18956,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1901584627}
   m_GameObject: {fileID: 1787277603}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -19514,7 +19514,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -19621,7 +19621,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -19841,7 +19841,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
@@ -21376,7 +21376,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1844058369}
   m_GameObject: {fileID: 2003210744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -21920,7 +21920,7 @@ Prefab:
     - target: {fileID: 212216421470553098, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61139081524676510, guid: 04977aa261bf6594fb27995ac351432d,
         type: 2}
