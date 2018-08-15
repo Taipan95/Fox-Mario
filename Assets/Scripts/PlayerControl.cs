@@ -147,7 +147,7 @@ public class PlayerControl : MonoBehaviour {
         {
             if (col.gameObject.transform.position.y >= gameObject.transform.position.y)
             {
-                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -100000000000000);
+                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0,-10);
             }
        
         }
