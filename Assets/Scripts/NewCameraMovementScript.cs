@@ -17,6 +17,10 @@ public class NewCameraMovementScript : MonoBehaviour {
         {
             gameObject.GetComponent<Rigidbody2D>().velocity=new Vector2(PlayerControl.Instance.rb.velocity.x, gameObject.GetComponent<Rigidbody2D>().velocity.y);
         }
+        if (Mathf.Abs((player.transform.position.x) - (CameraObject.transform.position.x)) >= 14)
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity=new Vector2(10, gameObject.GetComponent<Rigidbody2D>().velocity.y);
+        }
         //else if player is iddle or moving towards the collider the camera stops moving
        else  if (PlayerControl.Instance.rb.velocity.x <= 0 || PlayerControl.Instance.rb.velocity.x <= 14)
         {
