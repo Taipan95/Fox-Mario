@@ -5,28 +5,30 @@ using UnityEngine;
 public class InvisibleEnemyAI : MonoBehaviour {
     private int enemyOrientation;
     public GameObject player;
+    public float distanceBettweenPlayerAndTigerActivator;
     private Animator anim;
-    private Rigidbody2D rb2d;
+    public bool moveTiger;
+    private Rigidbody2D rb2d;private float timer;
 	// Use this for initialization
 	void Start () {
+        moveTiger = false;
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
-        //disables the image and choses the orientationif the object is left or right of the player
-        if (gameObject.transform.position.x > player.transform.position.x)
-        {
-            enemyOrientation = -1;
-
-        }
-        else if (gameObject.transform.position.x < player.transform.position.x)
-        {
-            enemyOrientation = 1;
-
-        }
+      
     }
 	
 	// Update is called once per frame
 	void Update () {
-     //adds force to the object when they reach a certain distance bettwen it and the player
+        //adds force to the object when they reach a certain distance bettwen it and the player
+        if (Mathf.Abs(gameObject.transform.position.x - player.transform.position.x) <= distanceBettweenPlayerAndTigerActivator)
+        {
+            ONActivate();
+            moveTiger = true;
+            if (Mathf.Abs(gameObject.transform.position.x - player.transform.position.x)<=distanceBettweenPlayerAndTigerActivator/4)
+            {
+                moveTiger = false;
+            }
+        }
         if (rb2d.velocity.x < 0)
         {
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
@@ -48,17 +50,33 @@ public class InvisibleEnemyAI : MonoBehaviour {
   //here it checks the orientation so when it passes the player it gets disabled
         if (enemyOrientation > 0)
         {
-         if (gameObject.transform.position.x > player.transform.position.x)
+         if (gameObject.transform.position.x -6> player.transform.position.x)
             {
                 gameObject.SetActive(false);
             }
         }
         else if(enemyOrientation < 0)
         {
-            if (gameObject.transform.position.x < player.transform.position.x)
+            if (gameObject.transform.position.x +6< player.transform.position.x)
             {
                 gameObject.SetActive(false);
             }
+        }
+    }
+    //disables the image and choses the orientationif the object is left or right of the player
+    private void ONActivate()
+    {
+        if (gameObject.transform.position.x > player.transform.position.x && moveTiger == true)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            enemyOrientation = -1;
+
+        }
+        else if (gameObject.transform.position.x < player.transform.position.x && moveTiger == true)
+        {
+
+            enemyOrientation = 1;
+
         }
     }
 }

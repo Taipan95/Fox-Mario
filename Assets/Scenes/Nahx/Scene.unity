@@ -3249,7 +3249,7 @@ Transform:
   m_LocalScale: {x: 0.60243, y: 1.05651, z: 1}
   m_Children: []
   m_Father: {fileID: 1733268349}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &272974312
 MonoBehaviour:
@@ -5931,7 +5931,7 @@ Transform:
   m_LocalScale: {x: 0.60243, y: 1.05651, z: 1}
   m_Children: []
   m_Father: {fileID: 1733268349}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519291675
 MonoBehaviour:
@@ -8419,7 +8419,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 725399505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1639.06, y: 241.1, z: 0}
+  m_LocalPosition: {x: 1314.78, y: 241.1, z: 0}
   m_LocalScale: {x: 1.19, y: 1.32, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8671,10 +8671,10 @@ GameObject:
   m_Component:
   - component: {fileID: 734673417}
   - component: {fileID: 734673416}
-  - component: {fileID: 734673418}
-  - component: {fileID: 734673421}
-  - component: {fileID: 734673420}
   - component: {fileID: 734673422}
+  - component: {fileID: 734673418}
+  - component: {fileID: 734673420}
+  - component: {fileID: 734673419}
   m_Layer: 0
   m_Name: Tiger
   m_TagString: enemy
@@ -8688,7 +8688,7 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 734673415}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8718,7 +8718,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 908c9256e47eca741a4c29978d7c9cc6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4716981, g: 0.42052332, b: 0.42052332, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -8734,7 +8734,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 734673415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 83.09, y: -0.4754, z: -7.701635}
+  m_LocalPosition: {x: 107.53, y: -0.4754, z: -7.701635}
   m_LocalScale: {x: 1.6834985, y: 1.5984454, z: 1}
   m_Children: []
   m_Father: {fileID: 392792119}
@@ -8752,6 +8752,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 725399505}
+  distanceBettweenPlayerAndTigerActivator: 30
+  moveTiger: 0
+--- !u!50 &734673419
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 734673415}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!68 &734673420
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -8796,26 +8818,6 @@ EdgeCollider2D:
   - {x: -1.8978442, y: -0.47349173}
   - {x: -1.805039, y: -0.4576938}
   - {x: -2.0408833, y: -0.0828641}
---- !u!50 &734673421
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 734673415}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!95 &734673422
 Animator:
   serializedVersion: 3
@@ -9795,7 +9797,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819945391}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1649.6702, y: 244.89, z: -10}
+  m_LocalPosition: {x: 1325.3901, y: 244.89, z: -10}
   m_LocalScale: {x: 0.8478795, y: 0.63322276, z: 0.8586118}
   m_Children:
   - {fileID: 927230227}
@@ -10582,7 +10584,7 @@ Transform:
   m_LocalScale: {x: 0.60243, y: 1.05651, z: 1}
   m_Children: []
   m_Father: {fileID: 1733268349}
-  m_RootOrder: 3
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &871397194
 MonoBehaviour:
@@ -21484,14 +21486,14 @@ Transform:
   - {fileID: 62819346}
   - {fileID: 769939860}
   - {fileID: 1745894803}
-  - {fileID: 871397193}
-  - {fileID: 519291674}
+  - {fileID: 1787277604}
+  - {fileID: 272974311}
   - {fileID: 541014175}
   - {fileID: 1189346896}
   - {fileID: 779491861}
-  - {fileID: 272974311}
-  - {fileID: 1787277604}
   - {fileID: 2003210745}
+  - {fileID: 519291674}
+  - {fileID: 871397193}
   - {fileID: 1427051556}
   m_Father: {fileID: 878358305}
   m_RootOrder: 2
@@ -22347,7 +22349,7 @@ Transform:
   m_LocalScale: {x: 0.60243, y: 1.05651, z: 1}
   m_Children: []
   m_Father: {fileID: 1733268349}
-  m_RootOrder: 9
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1787277605
 MonoBehaviour:
@@ -25392,7 +25394,7 @@ Transform:
   m_LocalScale: {x: 0.60243, y: 1.05651, z: 1}
   m_Children: []
   m_Father: {fileID: 1733268349}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2003210746
 MonoBehaviour:
